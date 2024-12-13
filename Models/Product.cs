@@ -22,5 +22,7 @@ namespace _22023EMVC.Models
         [Required]
         [MaxLength(255)]
         public string Description { get; set; }
+
+        public int Quantity { get; set; }
     }
 }
